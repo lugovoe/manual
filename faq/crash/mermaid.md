@@ -2,9 +2,10 @@
 
 ```mermaid
 graph LR
-    A[Сервис и настройки] --- B[О программе...]
+    A[Сервис и настройки] --> B[О программе...]
     B-->C[fa:fa-ban forbidden]
     B-->D(fa:fa-spinner);
+    classDef default fill:#f9f,stroke:#333,stroke-width:4px;
 ```
 
 ```mermaid
