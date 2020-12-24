@@ -1,6 +1,7 @@
 # Mermaid Test ёёё
 
 ```mermaid
+graph TD;
   a [label="source"]
   b [label="destination"]
   a -> b;
