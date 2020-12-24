@@ -1,0 +1,59 @@
+# Site settings
+title: 'GROK'
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+url: 'https://lugovoe.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/manual' # the subpath of your site, e.g. /blog
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+remote_theme: matthiaslischka/jekyll-uno # https://github.com/joshgerdes/jekyll-uno/compare/master...matthiaslischka:master
+
+author:
+  name: 'bopoh13'
+  #email: 
+  #twitter_username: 
+  #facebook_username: 
+  github_username: bopoh13
+  #linkedin_username:  
+
+# Build settings
+destination: _site
+paginate: 8
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: '' # not same as pages below
+      type: posts
+    values:
+      layout: post
+      author_profile: false
+#      read_time: false
+#      comments: false
+#      share: true
+#      related: true
+  # _pages
+#  - scope:
+#      path: '_pages' # not same as posts above
+#      type: pages
+#    values:
+#      layout: post
+#      author_profile: true
