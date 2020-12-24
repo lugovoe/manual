@@ -5,7 +5,7 @@ graph LR
     A[Сервис и настройки] --> B[О программе...];
     B --> C[fa:fa-ban forbidden];
     B --> D(fa:fa-spinner);
-    classDef default fill:#f34,stroke:#643,stroke-width:4px;
+    classDef default fill:#fbed9e,stroke:#a0a0a0,stroke-width:1px;
 ```
 
 ```mermaid
