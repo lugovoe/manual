@@ -15,9 +15,9 @@ readme_index:
   with_frontmatter: true
 
 meta:
-  1C\:Enterprise: 8.3.17.1851
-  DocumentFlow: 2.1.10.2
-  ExtensionDOAM: 1.06.3
+  1C:Enterprise: 8.3.17.1851
+  1C:DocumentFlow: 2.1.10.2
+  1C:ExtensionDOAM: 1.06.3
 
 #google:
 #  gtag:
@@ -41,7 +41,7 @@ translate:
   # 404
   not_found: Документ не найден
   # copyright
-  revision:
+  revision: Last Commit
   # search
   searching: Идёт поиск
   search: Поиск
