@@ -1,8 +1,8 @@
 # Site settings
 title: Manual 1C
-description: > # this means to ignore newlines until "baseurl:"
-  Описание документооборота
-url: 'https://lugovoe.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+description: > ДОАМ /
+  Документооборот 8
+url: 'https://lugovoe.github.io' # the base hostname & protocol for your site, e.g. https://example.com
 baseurl: '/manual' # the subpath of your site, e.g. /blog
 lang: ru
 
@@ -14,8 +14,8 @@ readme_index:
   with_frontmatter: true
 
 meta:
-  key1: value1
-  key2: value2
+  generator2: Jekyll v3.9.0
+  title2: :title
 
 #google:
 #  gtag:
@@ -39,15 +39,14 @@ translate:
   # 404
   not_found: Документ не найден
   # copyright
-  revision:
+  revision: 123
   # search
-  searching:
-  search:
-  search_docs:
+  searching: Идёт поиск
+  search: Поиск
+  search_docs: Поиск по документам
   search_results: Результаты поиска
-  search_results_found: # the "#" in this translate will replaced with results size!
+  search_results_found: По вашему запросу найдено # документ(ов).
   search_results_not_found: По вашему запросу не найдено ни одного документа!
 
 plugins:
-#  - jekyll-mentions
   - jekyll-remote-theme
