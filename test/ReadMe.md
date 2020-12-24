@@ -1,8 +1,6 @@
----
-sort: 3
----
-
 # Test
+
+source: `{{ page.path }}`
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
