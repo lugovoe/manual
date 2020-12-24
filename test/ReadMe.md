@@ -1,9 +1,10 @@
 # Test
 
-source: `{{ page.path }}`
+{% include list.liquid all=true %}
+
+
+page_path: `{{ page.path }}`
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
 ```
-
-{% include list.liquid all=true %}
