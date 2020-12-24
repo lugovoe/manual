@@ -2,11 +2,11 @@
 
 ```mermaid
 graph LR
-    A[Сервис и настройки] --> B[О программе...]:::contextmenu;
-    B --> C[fa:fa-ban forbidden];
-    B --> D(fa:fa-spinner);
-    classDef default fill:#fbed9e,stroke:#a0a0a0,stroke-width:1px;
-    classDef contextmenu fill:#facc1f;
+  m1[Сервис и настройки] --> m2[О программе...]:::contextmenu;
+  m2 --> C[fa:fa-ban forbidden];
+  m2 --> D(fa:fa-spinner);
+  classDef default fill:#fbed9e,stroke:#a0a0a0,stroke-width:1px;
+  classDef contextmenu fill:#facc1f;
 ```
 
 ```mermaid
