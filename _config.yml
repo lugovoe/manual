@@ -1,6 +1,7 @@
 # Site settings
 title: Manual 1C
-description: > ДОАМ /
+description: > 
+  ДОАМ /
   Документооборот 8
 url: 'https://lugovoe.github.io' # the base hostname & protocol for your site, e.g. https://example.com
 baseurl: '/manual' # the subpath of your site, e.g. /blog
