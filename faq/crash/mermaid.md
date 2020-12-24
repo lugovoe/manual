@@ -2,7 +2,7 @@
 
 ```mermaid
 graph LR
-    A --- B
+    A[Сервис и настройки] --- B[О программе...]
     B-->C[fa:fa-ban forbidden]
     B-->D(fa:fa-spinner);
 ```
