@@ -1,6 +1,12 @@
 # Mermaid Test ёёё
 
 ```mermaid
+  a [label="source"]
+  b [label="destination"]
+  a -> b;
+```
+
+```mermaid
 graph TB
     c1-->a2
     subgraph one
