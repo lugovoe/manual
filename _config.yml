@@ -1,5 +1,5 @@
 # Site settings
-title: Manual 1C
+title: 1C:DOAM
 description: > # title on the main link
   ДОАМ /
   Документооборот 8
@@ -18,19 +18,6 @@ meta:
   1C:Enterprise: 8.3.17.1851
   1C:DocumentFlow: 2.1.10.2
   1C:ExtensionDOAM: 1.06.3
-
-#google:
-#  gtag:
-#  adsense:
-
-#mathjax: # this will prased to json, default: {}
-
-#mermaid:
-#  custom:     # mermaid link
-#  initialize: # this will prased to json, default: {}
-
-#scss:   # also _includes/extra/styles.scss
-#script: # also _includes/extra/script.js
 
 translate:
   # shortcodes
