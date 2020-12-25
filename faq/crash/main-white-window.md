@@ -37,20 +37,22 @@ flowchart LR
   m2(Открыть конфигурацию);
   classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px;
   classDef button fill:#f9f9f9,stroke-width:2px;
-  classDef cfgmenu stroke:#9eb6e9,color:#3d4e8f;
+  classDef cofnmenu stroke:#9eb6e9,color:#3d4e8f;
   class b1 button;
-  class m1,m2 cfgmenu;
+  class m1,m2 cofnmenu;
 ```
-2. Проверить настройки Начальной страницы `Конфигурации`
+2. Проверить настройки Начальной страницы `Конфигурации` в поле `Шаблон 
+начальной страницы`
 ``` mermaid
 flowchart LR
-  b1[fa:fa-circle-o ДокументооборотКОРП];
-  b1 -- ПКМ --> m1;
-  m1(Открыть рабочую область начальной страницы) -. fa:fa-spinner Открыть .-> b0;
-  b0[fa:fa-window-restore];
-  b2[fa:fa-pencil-square-o Шаблон начальной страницы];
+  e1[fa:fa-circle-o ДокументооборотКОРП] -- ПКМ --> m1;
+  m1(Открыть рабочую область начальной страницы) -.-> e0;
+  e0[fa:fa-window-restore];
+  e2[fa:fa-pencil-square-o Шаблон начальной страницы];
   classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px;
-  classDef button fill:#f9f9f9,stroke-width:2px;
-  class b0,b1,b2 button;
+  classDef cofnmenu stroke:#9eb6e9,color:#3d4e8f;
+  classDef element fill:#f9f9f9;
+  class m1 confmenu;
+  class e0,e1,e2 element;
 ```
 3. 
