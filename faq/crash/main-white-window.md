@@ -49,12 +49,12 @@ flowchart LR
   m1(Открыть рабочую область начальной страницы) -.-> e0;
   e0[fa:fa-window-restore];
   subgraph memo;
-  e2[fa:fa-pencil-square-o Шаблон начальной страницы] -.-> e3;
-  e2 -.-> e4;
-  e2 -.-> e5;
-  e3[Одна колонка];
-  e4[Две колонки одинаковой ширины];
-  e5["Две колонки разной ширины (2:1)"];
+    e2[fa:fa-pencil-square-o Шаблон начальной страницы] -.-> e3;
+    e2 -.-> e4;
+    e2 -.-> e5;
+    e3[Одна колонка];
+    e4[Две колонки одинаковой ширины];
+    e5["Две колонки разной ширины (2:1)"];
   end;
   classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px;
   classDef confmenu stroke:#9eb6e9,color:#3d4e8f;
