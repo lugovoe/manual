@@ -44,14 +44,12 @@ flowchart LR
 2. Проверить настройки Начальной страницы `Конфигурации`
 ``` mermaid
 flowchart LR
-  b1[ДокументооборотКОРП];
+  b1[fa:fa-circle-o ДокументооборотКОРП];
   b1 -- ПКМ --> m1(Открыть рабочую область начальной страницы);
-  m1 -. Открыть .-> b0["#hellip;#middot;"];
-  b3["Шаблон начальной страницы [поле]"];
-  classDef default fill:none,stroke:none;
-  classDef button fill:#f9f9f9,stroke-width:2px;
-  classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,color:#3d4e8f;
-  class b1,b2 button;
-  class m1 confmenu;
+  m1 -. fa:fa-spinner Открыть .-> b0;
+  b0[fa:fa-window-restore];
+  b2[fa-pencil-square-o Шаблон начальной страницы];
+  classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px;
+
 ```
 3. 
