@@ -38,16 +38,28 @@ flowchart LR
 ```
 ![about](images/about.png)
 
-1. Открыть `Конфигурацию` в режиме конфигуратора
+1. Открыть `Конфигурацию` в режиме конфигуратора (слева откроется окно)
 ``` mermaid
 flowchart LR
   b1([Конфигуратор]);
-  b1 -. Открыть .-> m1[Конфигурафия];
-  m1 --> m2[Открыть конфигурацию];
+  b1 -. Открыть .-> m1(Конфигурафия);
+  m1 --> m2(Открыть конфигурацию);
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
   classDef button fill:#f9f9f9,stroke-width:2px;
   classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,color:#3d4e8f;
   class b1 button;
   class m1,m2 confmenu;
 ```
-
+2. Проверить настройки настройки начальной страницы `Конфигурации`
+``` mermaid
+flowchart LR
+  b1[ДокументооборотКОРП];
+  b1 -- ПКМ --> m1(Открыть рабочую область начальной страницы);
+  m1 -. Открыть .-> b2(Шаблон начальной страницы [поле]);
+  classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
+  classDef button fill:#f9f9f9,stroke-width:2px;
+  classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,color:#3d4e8f;
+  class b1,b2 button;
+  class m1 confmenu;
+```
+3. 
