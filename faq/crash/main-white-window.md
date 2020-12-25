@@ -45,11 +45,10 @@ flowchart LR
 ``` mermaid
 flowchart LR
   b1[fa:fa-circle-o ДокументооборотКОРП];
-  b1 -- ПКМ --> m1(Открыть рабочую область начальной страницы);
-  m1 -. fa:fa-spinner Открыть .-> b0;
+  b1 -- ПКМ --> m1;
+  m1(Открыть рабочую область начальной страницы) -. fa:fa-spinner Открыть .-> b0;
   b0[fa:fa-window-restore];
   b2[fa-pencil-square-o Шаблон начальной страницы];
   classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px;
-
 ```
 3. 
