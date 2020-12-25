@@ -50,9 +50,7 @@ flowchart LR
   e0[fa:fa-window-restore];
   e2[fa:fa-pencil-square-o Шаблон начальной страницы];
   classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px;
-  classDef cofnmenu stroke:#9eb6e9,color:#3d4e8f;
-  classDef element fill:#fff,stroke-width:0px;
-  class m1 confmenu;
+  classDef element fill:#fff,stroke-dasharray:1 5;
   class e0,e1,e2 element;
 ```
 3. 
