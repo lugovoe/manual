@@ -50,12 +50,13 @@ flowchart LR
   class b1 button;
   class m1,m2 confmenu;
 ```
-2. Проверить настройки настройки Начальной страницы `Конфигурации`
+2. Проверить настройки Начальной страницы `Конфигурации`
 ``` mermaid
 flowchart LR
   b1[ДокументооборотКОРП];
   b1 -- ПКМ --> m1(Открыть рабочую область начальной страницы);
-  m1 -. Открыть .-> ;
+  m1 -. Открыть .-> m2;
+  b2("Шаблон начальной страницы [поле]")
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
   classDef button fill:#f9f9f9,stroke-width:2px;
   classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,color:#3d4e8f;
