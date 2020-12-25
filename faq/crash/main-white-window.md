@@ -18,7 +18,7 @@
 1. Первым делом необходимо проверить работу лицензионного ключа:
 ``` mermaid
 graph LR
-  b1(["fa:fa-external-link 1С:Предприятие"]) -.-> |fa:fa-spinner Открыть| m1
+  b1([fa:fa-external-link 1С:Предприятие]) -.-> |"fa:fa-spinner Открыть"| m1
   m1[fa:fa-caret-down Сервис и настройка] --> m2
   m2[fa:fa-info-circle О программе...]
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px
@@ -32,7 +32,7 @@ graph LR
 1. Открыть `Конфигурацию` в режиме конфигуратора (слева откроется окно)
 ``` mermaid
 graph LR
-  b1(["fa:fa-external-link Конфигуратор"]) -.-> |fa:fa-spinner Открыть| m1
+  b1([fa:fa-external-link Конфигуратор]) -.-> |"fa:fa-spinner Открыть"| m1
   m1(fa:fa-caret-down Конфигурация) --> m2
   m2(Открыть конфигурацию)
   classDef button fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px
