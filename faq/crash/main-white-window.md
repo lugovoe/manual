@@ -48,7 +48,7 @@ flowchart LR
   e1[fa:fa-plus-square-o ДокументооборотКОРП] -- ПКМ --> m1;
   m1(Открыть рабочую область начальной страницы) -.-> e0;
   e0[fa:fa-window-restore];
-  b1[fa:fa-pencil-square-o Шаблон начальной страницы];
+  e2[fa:fa-pencil-square-o Шаблон начальной страницы];
   classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px;
   classDef cofnmenu stroke:#9eb6e9,color:#3d4e8f;
   classDef element fill:#fff,stroke-width:2px,stroke-dasharray:2 5;
