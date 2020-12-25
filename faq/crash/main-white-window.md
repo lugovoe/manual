@@ -52,10 +52,10 @@ graph LR
     e4[Две колонки<br/>одинаковой ширины]
     e5["Две колонки<br/>разной ширины (2:1)"]
   end
-  classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px
-  classDef confmenu stroke:#9eb6e9,color:#3d4e8f
-  classDef element fill:#fff,stroke-width:2px,stroke-dasharray:2 4
+  classDef default fill:#fff,stroke:#a0a0a0,stroke-width:1px
+  classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,color:#3d4e8f
+  classDef element fill:#fff,stroke:#a0a0a0,stroke-width:2px,stroke-dasharray:2 4
   class m1 confmenu
-  class e1,e2,e3,e4,e5 element
+  class e1,e3,e4,e5 element
 ```
 3. 
