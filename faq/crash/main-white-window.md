@@ -46,8 +46,8 @@ flowchart LR
   m1 --> m2[Открыть конфигурацию];
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
   classDef button fill:#f9f9f9,stroke-width:2px;
-  classDef mainmenu fill:#d6e9ff,color:#3d4e8f;
+  classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,color:#3d4e8f;
   class b1 button;
-  class m1,m2 mainmenu;
+  class m1,m2 confmenu;
 ```
 
