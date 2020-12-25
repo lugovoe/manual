@@ -26,7 +26,7 @@
 
 Первым делом неоюходимо проверить работу лицензионного ключа:
 ``` mermaid
-graph LR
+flowchart LR
   b1([1С:Предприятие]):::button -. Открыть .-> m1[Сервис и настройки]:::mainmenu
   m1[Сервис и настройки] --> m2[fa:fa-info-circle О программе...];
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
