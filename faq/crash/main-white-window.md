@@ -18,8 +18,8 @@
 1. Первым делом необходимо проверить работу лицензионного ключа:
 ``` mermaid
 flowchart LR
-  b1(["1С:Предприятие (кнопка)"]) -. Открыть .-> m1;
-  m1[Сервис и настройка] --> m2;
+  b1(["1С:Предприятие (кнопка)"]) -. fa:fa-spinner Открыть .-> m1;
+  m1[fa:fa-caret-down Сервис и настройка] --> m2;
   m2[fa:fa-info-circle О программе...];
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
   classDef button fill:#f9f9f9,stroke-width:2px;
@@ -32,14 +32,12 @@ flowchart LR
 1. Открыть `Конфигурацию` в режиме конфигуратора (слева откроется окно)
 ``` mermaid
 flowchart LR
-  b1(["Конфигуратор (кнопка)"]);
-  b1 -. Открыть .-> m1(Конфигурафия);
-  m1 --> m2(Открыть конфигурацию);
-  classDef default fill:none,stroke:none;
-  classDef button fill:#f9f9f9,stroke-width:2px;
-  classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,color:#3d4e8f;
+  b1(["Конфигуратор (кнопка)"]) -. Открыть .-> m1;
+  m1(Конфигурафия) --> m2;
+  m2(Открыть конфигурацию);
+  classDef default fill:#d6e9ff,stroke:#9eb6e9,stroke-width:1px,color:#3d4e8f;
+  classDef button fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px:color:green;
   class b1 button;
-  class m1,m2 confmenu;
 ```
 2. Проверить настройки Начальной страницы `Конфигурации`
 ``` mermaid
