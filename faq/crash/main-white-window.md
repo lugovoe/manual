@@ -44,7 +44,7 @@ flowchart LR
 2. Проверить настройки Начальной страницы `Конфигурации` в поле `Шаблон 
 начальной страницы`
 ``` mermaid
-flowchart TB
+flowchart LR
   e1[fa:fa-plus-square-o ДокументооборотКОРП] -- ПКМ --> m1;
   m1(Открыть рабочую область начальной страницы) -.-> e0;
   e0[fa:fa-window-restore];
@@ -56,6 +56,7 @@ flowchart TB
     e4[Две колонки одинаковой ширины];
     e5["Две колонки разной ширины (2:1)"];
   end;
+  e0 --> memo;
   classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px;
   classDef confmenu stroke:#9eb6e9,color:#3d4e8f;
   classDef element fill:#fff,stroke-width:2px,stroke-dasharray:2 4;
