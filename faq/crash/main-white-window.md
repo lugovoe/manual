@@ -56,7 +56,7 @@ flowchart LR
     e4[Две колонки одинаковой ширины];
     e5["Две колонки разной ширины (2:1)"];
   end;
-  memo --> e2;
+  e2 --> e0;
   classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px;
   classDef confmenu stroke:#9eb6e9,color:#3d4e8f;
   classDef element fill:#fff,stroke-width:2px,stroke-dasharray:2 4;
