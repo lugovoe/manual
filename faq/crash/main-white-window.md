@@ -30,8 +30,8 @@ flowchart LR
   b1([1С:Предприятие]);
   b1 -. Открыть .-> m1[Сервис и настройки];
   m1 --> m2[fa:fa-info-circle О программе...];
-  classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:10px;
-  classDef button fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px;
+  classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
+  classDef button fill:#f9f9f9,stroke-width:2px;
   classDef mainmenu fill:#fbed9e;
   class b1 button;
   class m1 mainmenu;
@@ -39,13 +39,14 @@ flowchart LR
 ![about](images/about.png)
 
 1. Открыть `Конфигурацию` в режиме конфигуратора
+``` mermaid
 flowchart LR
   b1([Конфигуратор]);
   b1 -. Открыть .-> m1[Конфигурафия];
   m1 --> m2[Открыть конфигурацию];
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
-  classDef button fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px;
-  classDef mainmenu fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px,color:#3d4e8f;
+  classDef button fill:#f9f9f9,stroke-width:2px;
+  classDef mainmenu fill:#d6e9ff,color:#3d4e8f;
   class b1 button;
   class m1,m2 mainmenu;
 ```
