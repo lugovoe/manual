@@ -48,7 +48,7 @@ flowchart LR
   e1[fa:fa-plus-square-o ДокументооборотКОРП] -- ПКМ --> m1;
   m1(Открыть рабочую область начальной страницы) -.-> e0;
   e0[fa:fa-window-restore];
-  e2 --> e0;
+  e0 --> e2;
   subgraph memo;
     e2[fa:fa-pencil-square-o Шаблон начальной страницы] -.-> e3;
     e2 -.-> e4;
