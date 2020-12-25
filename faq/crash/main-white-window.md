@@ -18,12 +18,12 @@
 1. Первым делом необходимо проверить работу лицензионного ключа:
 ``` mermaid
 graph LR
-  b1(["fa:fa-external-link 1С:Предприятие"]) -. fa:fa-spinner Открыть .-> m1
+  b1(["fa:fa-external-link 1С:Предприятие"]) -.-> |fa:fa-spinner Открыть| m1
   m1[fa:fa-caret-down Сервис и настройка] --> m2
   m2[fa:fa-info-circle О программе...]
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px
-  classDef button fill:#f9f9f9,stroke-width:2px
-  classDef mainmenu fill:#fbed9e
+  classDef button fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px
+  classDef mainmenu fill:#fbed9e,stroke:#a0a0a0,stroke-width:1px
   class b1 button
   class m1 mainmenu
 ```
@@ -32,12 +32,11 @@ graph LR
 1. Открыть `Конфигурацию` в режиме конфигуратора (слева откроется окно)
 ``` mermaid
 graph LR
-  b1(["fa:fa-external-link Конфигуратор"]) -. fa:fa-spinner Открыть .-> m1
+  b1(["fa:fa-external-link Конфигуратор"]) -.-> |fa:fa-spinner Открыть| m1
   m1(fa:fa-caret-down Конфигурация) --> m2
   m2(Открыть конфигурацию)
-  classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px
-  classDef button fill:#f9f9f9,stroke-width:2px
-  classDef confmenu stroke:#9eb6e9,color:#3d4e8f
+  classDef button fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px
+  classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,stroke-width:1px,color:#3d4e8f
   class b1 button
   class m1,m2 confmenu
 ```
