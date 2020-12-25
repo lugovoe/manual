@@ -28,7 +28,7 @@ remote_theme: rundocs/jekyll-rtd-theme
 {% include list.liquid all=false %}
 
 
-page_path: `{{ page.path }}`
+{% raw %}{{ page.path }}{% endraw %} `{{ page.path }}`
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
