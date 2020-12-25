@@ -48,7 +48,6 @@ flowchart LR
   e1[fa:fa-plus-square-o ДокументооборотКОРП] -- ПКМ --> m1;
   m1(Открыть рабочую область начальной страницы) -.-> e0;
   e0[fa:fa-window-restore];
-graph LR
   e2[fa:fa-pencil-square-o Шаблон начальной страницы] -.-> e3;
   e2 -.-> e4;
   e2 -.-> e5;
