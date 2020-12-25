@@ -45,7 +45,7 @@ flowchart LR
 начальной страницы`
 ``` mermaid
 flowchart LR
-  subgraph memo;
+  subgraph memo[пас];
     e2[fa:fa-pencil-square-o Шаблон начальной страницы] -.-> e3;
     e2 -.-> e4;
     e2 -.-> e5;
