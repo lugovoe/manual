@@ -34,7 +34,7 @@ translate:
   search: Поиск
   search_docs: Поиск по документам
   search_results: Результаты поиска
-  search_results_found: По вашему запросу найдено # документ(ов).
+  search_results_found: По вашему запросу найдено \# документ(ов).
   search_results_not_found: По вашему запросу не найдено ни одного документа!
 
 plugins:
