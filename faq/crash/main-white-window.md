@@ -55,7 +55,7 @@ flowchart LR
 flowchart LR
   b1[ДокументооборотКОРП];
   b1 -- ПКМ --> m1(Открыть рабочую область начальной страницы);
-  m1 -. Открыть .-> .;
+  m1 -. Открыть .-> b0[""];
   b3["Шаблон начальной страницы [поле]"];
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
   classDef button fill:#f9f9f9,stroke-width:2px;
