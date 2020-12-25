@@ -18,11 +18,9 @@
 1. Первым делом необходимо проверить работу лицензионного ключа:
 ``` mermaid
 flowchart LR
-  b1(["1С:Предприятие (кнопка)"]);
-  m1[Сервис и настройки];
+  b1(["1С:Предприятие (кнопка)"]) -. Открыть .-> m1;
+  m1[Сервис и настройка] --> m2;
   m2[fa:fa-info-circle О программе...];
-  b1 -. Открыть .-> m1;
-  m1 --> m2;
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
   classDef button fill:#f9f9f9,stroke-width:2px;
   classDef mainmenu fill:#fbed9e;
