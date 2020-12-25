@@ -12,8 +12,26 @@ This theme is inspired by [sphinx-rtd-theme](https://github.com/readthedocs/sphi
 - [@primer/css](https://github.com/primer/css)
 - [github-pages](https://github.com/github/pages-gem) ([dependency versions](https://pages.github.com/versions/))
 
+``` bash
+# Создание пустого удалённого репозитория на github
+# Клонирование удалённого репозитория в рабочий клиент
+# В тестовом репозитории нужно скопировать хук для UTF-8 и отключить подпись
+git config commit.gpgsign false
+```
+
 ## Quick start
 
 ```yml
 remote_theme: rundocs/jekyll-rtd-theme
+```
+
+{% include list.liquid all=true %}
+
+
+page_path: `{{ page.path }}`
+
+```
+{% raw %}{% include list.liquid all=true %}{% endraw %}
+
+{% include list.liquid all=true %}
 ```
