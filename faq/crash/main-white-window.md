@@ -36,7 +36,7 @@ flowchart LR
   m1(fa:fa-caret-down Конфигурация) --> m2;
   m2(Открыть конфигурацию);
   classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px;
-  classDef button fill:#f9f9f9,stroke-width:2px,stroke-dasharray:1 5;
+  classDef button fill:#f9f9f9,stroke-width:2px,stroke-dasharray:5 5;
   classDef cofnmenu stroke:#9eb6e9,color:#3d4e8f;
   class b1 button;
   class m1,m2 cofnmenu;
