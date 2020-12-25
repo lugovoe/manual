@@ -22,7 +22,7 @@ graph LR
   m1[fa:fa-caret-down Сервис и настройка] --> m2;
   m2[fa:fa-info-circle О программе...];
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
-  classDef button fill:#f9f9f9,stroke-width:2px;
+  classDef button fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px;
   classDef mainmenu fill:#fbed9e;
   class b1 button;
   class m1 mainmenu;
