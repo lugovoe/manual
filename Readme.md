@@ -25,7 +25,7 @@ git config commit.gpgsign false
 remote_theme: rundocs/jekyll-rtd-theme
 ```
 
-{% include list.liquid all=true %}
+{% include list.liquid all=false %}
 
 
 page_path: `{{ page.path }}`
