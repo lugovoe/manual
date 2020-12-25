@@ -18,14 +18,14 @@
 1. Первым делом необходимо проверить работу лицензионного ключа:
 ``` mermaid
 flowchart LR
-  b1(["fa:fa-external-link 1С:Предприятие"]) -. fa:fa-spinner Открыть .-> m1;
-  m1[fa:fa-caret-down Сервис и настройка] --> m2;
-  m2[fa:fa-info-circle О программе...];
-  classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
-  classDef button fill:#f9f9f9,stroke-width:2px;
-  classDef mainmenu fill:#fbed9e;
-  class b1 button;
-  class m1 mainmenu;
+  b1(["fa:fa-external-link 1С:Предприятие"]) -. fa:fa-spinner Открыть .-> m1
+  m1[fa:fa-caret-down Сервис и настройка] --> m2
+  m2[fa:fa-info-circle О программе...]
+  classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px
+  classDef button fill:#f9f9f9,stroke-width:2px
+  classDef mainmenu fill:#fbed9e
+  class b1 button
+  class m1 mainmenu
 ```
 ![about](images/about.png)
 
