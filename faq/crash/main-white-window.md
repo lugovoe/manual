@@ -45,7 +45,10 @@ flowchart LR
 начальной страницы`
 ``` mermaid
 flowchart LR
-  subgraph memo[пас];
+  e1[fa:fa-plus-square-o ДокументооборотКОРП] -- ПКМ --> m1;
+  m1(Открыть рабочую область начальной страницы) -.-> e0;
+  e0[fa:fa-window-restore];
+  subgraph memo[fa:fa-window-restore Рабочая область начальной страницы];
     e2[fa:fa-pencil-square-o Шаблон начальной страницы] -.-> e3;
     e2 -.-> e4;
     e2 -.-> e5;
@@ -53,9 +56,6 @@ flowchart LR
     e4[Две колонки одинаковой ширины];
     e5["Две колонки разной ширины (2:1)"];
   end;
-  e1[fa:fa-plus-square-o ДокументооборотКОРП] -- ПКМ --> m1;
-  m1(Открыть рабочую область начальной страницы) -.-> e0;
-  e0[fa:fa-window-restore];
   classDef default fill:#d6e9ff,stroke:#a0a0a0,stroke-width:1px;
   classDef confmenu stroke:#9eb6e9,color:#3d4e8f;
   classDef element fill:#fff,stroke-width:2px,stroke-dasharray:2 4;
