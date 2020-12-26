@@ -3,7 +3,7 @@
 1. Первым делом необходимо проверить работу лицензионного ключа:
 ``` mermaid
 graph LR
-  b1([fa:fa-external-link 1С:Предприятие]) -.-> |Открыть| m1
+  b1([fa:fa-external-link 1С:Предприятие]) -.-> |ЛКМ: Открыть| m1
   m1[fa:fa-caret-down Сервис и настройка] --> m2
   m2[fa:fa-info-circle О программе...]
   style b1 fill:#f9f9f9,stroke-width:2px
@@ -36,7 +36,7 @@ graph LR
 graph LR
   %% https://mermaid-js.github.io/mermaid-live-editor/
   %% https://fontawesome.ru/all-icons/
-  b1([fa:fa-external-link Конфигуратор]) -.-> |Открыть| m1
+  b1([fa:fa-external-link Конфигуратор]) -.-> |ЛКМ: Открыть| m1
   m1(fa:fa-caret-down Конфигурация) --> m2
   m2(Открыть конфигурацию)
   style b1 fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px
