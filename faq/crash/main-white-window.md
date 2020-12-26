@@ -6,10 +6,10 @@ graph LR
   b1([fa:fa-external-link 1С:Предприятие]) -.-> |Открыть| m1
   m1[fa:fa-caret-down Сервис и настройка] --> m2
   m2[fa:fa-info-circle О программе...]
-  style b1 fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px
-  %%classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px
-  classDef mainmenu fill:#fbed9e,stroke:#a0a0a0,stroke-width:1px
-  class m1 mainmenu
+  style b1 fill:#f9f9f9,stroke-width:2px
+  style m1 fill:#fbed9e,stroke-width:1px
+  style m2 fill:#facc1f,stroke-width:1px
+  classDef default stroke:#a0a0a0
 ```
 ![about](images/about.png)
 
@@ -59,7 +59,7 @@ graph LR
     m1(Открыть рабочую область начальной страницы) -.-> e0
     e0[fa:fa-window-restore]
   end
-  style i1 fill:#fff,stroke:#000,stroke-width:1px
+  style i1 fill:#fff,stroke:#000,stroke-width:2px
   style m1 fill:#d6e9ff,stroke:#9eb6e9,stroke-width:1px,color:#3d4e8f
   style main fill:none,stroke:none
   classDef element fill:#fff,stroke:#a0a0a0,stroke-width:2px,stroke-dasharray:2 4
