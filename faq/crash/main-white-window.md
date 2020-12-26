@@ -3,7 +3,7 @@
 1. Первым делом необходимо проверить работу лицензионного ключа:
 ``` mermaid
 graph LR
-  b1([fa:fa-external-link 1С:Предприятие]) -.-> |ЛКМ (Открыть)| m1
+  b1([fa:fa-external-link 1С:Предприятие]) -.-> |ЛКМ| m1
   m1[fa:fa-caret-down Сервис и настройка] --> m2
   m2[fa:fa-info-circle О программе...]
   style b1 fill:#f9f9f9,stroke-width:2px
@@ -36,9 +36,9 @@ graph LR
 graph LR
   %% https://mermaid-js.github.io/mermaid-live-editor/
   %% https://fontawesome.ru/all-icons/
-  b1([fa:fa-external-link Конфигуратор]) -.-> |ЛКМ (Открыть)| m1
+  b1([fa:fa-external-link Конфигуратор]) -.-> |ЛКМ| m1
   m1(fa:fa-caret-down Конфигурация) --> m2
-  m2(Открыть конфигурацию) -.-> e0
+  m2(Открыть конфигурацию) -.-> |ЛКМ| e0
   e0[fa:fa-window-restore]
   style b1 fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px
   style e0 fill:#fff,stroke:#a0a0a0,stroke-width:2px,stroke-dasharray:2 4
@@ -58,7 +58,7 @@ graph LR
   end
   subgraph main[" "]
     e1[fa:fa-plus-square-o ДокументооборотКОРП] -- ПКМ --> m1
-    m1(Открыть рабочую область начальной страницы) -.-> e0
+    m1(Открыть рабочую область начальной страницы) -.-> |ЛКМ| e0
     e0[fa:fa-window-restore]
   end
   style i1 fill:#fff,stroke:#000,stroke-width:2px
