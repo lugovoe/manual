@@ -5,10 +5,10 @@
       classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px;
     ```
 
-|1C:Предприятие|8.03.17.1851
+|1C:Предприятие|8.3.17.1851
 |:--- |:--- 
-|Документооборот КОРП|2.01.10.2
-|Расширение ДОАМ|1.06.03
+|Документооборот КОРП|2.1.10.2
+|Расширение ДОАМ|1.6.03
 
 ``` danger
 **2020-12-24**  
@@ -18,7 +18,7 @@
 1. Первым делом необходимо проверить работу лицензионного ключа:
 ``` mermaid
 graph LR
-  b1([fa:fa-external-link 1С:Предприятие]) -.-> |"fa:fa-spinner Открыть"| m1
+  b1([fa:fa-external-link 1С:Предприятие]) -.-> |Открыть| m1
   m1[fa:fa-caret-down Сервис и настройка] --> m2
   m2[fa:fa-info-circle О программе...]
   classDef default fill:#facc1f,stroke:#a0a0a0,stroke-width:1px
@@ -32,7 +32,7 @@ graph LR
 1. Открыть `Конфигурацию` в режиме конфигуратора (слева откроется окно)
 ``` mermaid
 graph LR
-  b1([fa:fa-external-link Конфигуратор]) -.-> |"fa:fa-spinner Открыть"| m1
+  b1([fa:fa-external-link Конфигуратор]) -.-> |Открыть| m1
   m1(fa:fa-caret-down Конфигурация) --> m2
   m2(Открыть конфигурацию)
   classDef button fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px
@@ -44,14 +44,17 @@ graph LR
 начальной страницы`
 ``` mermaid
 graph LR
-  e1[fa:fa-plus-square-o ДокументооборотКОРП] -- ПКМ --> m1
-  m1(Открыть рабочую область<br/>начальной страницы) -.-> e2
   subgraph tbox[fa:fa-window-restore Рабочая область начальной страницы]
-    e2[fa:fa-pencil-square-o Шаблон<br/>начальной страницы] -.-> e3 & e4 & e5
+    e2[fa:fa-pencil-square-o Шаблон начальной страницы] -.-> e3 & e4 & e5
     e3[Одна колонка]
-    e4[Две колонки<br/>одинаковой ширины]
-    e5["Две колонки<br/>разной ширины (2:1)"]
+    e4[Две колонки одинаковой ширины]
+    e5["Две колонки разной ширины (2:1)"]
   end
+  subgraph main[" "]
+    e1[fa:fa-plus-square-o ДокументооборотКОРП] -- ПКМ --> m1
+    m1(Открыть рабочую область начальной страницы)
+  end
+  style main fill:none,stroke:none
   classDef default fill:#fff,stroke:#a0a0a0,stroke-width:1px
   classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,color:#3d4e8f
   classDef element fill:#fff,stroke:#a0a0a0,stroke-width:2px,stroke-dasharray:2 4
