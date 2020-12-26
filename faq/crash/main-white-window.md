@@ -38,8 +38,10 @@ graph LR
   %% https://fontawesome.ru/all-icons/
   b1([fa:fa-external-link Конфигуратор]) -.-> |ЛКМ: Открыть| m1
   m1(fa:fa-caret-down Конфигурация) --> m2
-  m2(Открыть конфигурацию)
+  m2(Открыть конфигурацию) -.-> e0
+  e0[fa:fa-window-restore]
   style b1 fill:#f9f9f9,stroke:#a0a0a0,stroke-width:2px
+  style e0 fill:#fff,stroke:#a0a0a0,stroke-width:2px,stroke-dasharray:2 4
   classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,stroke-width:1px,color:#3d4e8f
   class m1,m2 confmenu
 ```
