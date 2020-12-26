@@ -31,7 +31,7 @@ graph LR
 
 ## Разрешение конфликта
 
-1. Открыть `Конфигурацию` в режиме конфигуратора (слева откроется окно)
+1. Открыть `Конфигурацию` в режиме конфигуратора (слева откроется окно)  
 ``` mermaid
 graph LR
   %% https://mermaid-js.github.io/mermaid-live-editor/
@@ -44,6 +44,10 @@ graph LR
   style e0 fill:#fff,stroke:#a0a0a0,stroke-width:2px,stroke-dasharray:2 4
   classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,stroke-width:1px,color:#3d4e8f
   class m1,m2 confmenu
+```
+``` tip
+Если `Конфигурация` открыта, показать окно можно горячими клавишами 
+<kbd>Ctrl+Shift+C</kbd>
 ```
 
 2. Проверить настройки Начальной страницы `Конфигурации` в поле `Шаблон 
