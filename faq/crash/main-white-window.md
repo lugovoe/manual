@@ -69,7 +69,7 @@ graph LR
   subgraph main[" "]
     e01[fa:fa-plus-square-o ДокументооборотКОРП] -- ПКМ --> m1
     m1(Открыть рабочую область начальной страницы) -.-> |ЛКМ| e00
-    e00[fa:fa-window-restore Рабоч...]
+    e00[fa:fa-window-maximize Рабоч...]
   end
   style i1 fill:#fff,stroke:#000,stroke-width:2px
   style m1 fill:#d6e9ff,stroke:#9eb6e9,stroke-width:1px,color:#3d4e8f
@@ -88,7 +88,7 @@ graph LR
   e01[fa:fa-list-alt РасширениеДОАМ] -.-> |ПКМ| m3
   m3(fa:fa-caret-down Конфигурация) --> m4
   m4(Открыть конфигурацию) -.-> |ЛКМ| e02
-  e02[fa:fa-window-restore Расш...]
+  e02[fa:fa-plus-square-o РасширениеДОАМ]
   classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,stroke-width:1px,color:#3d4e8f
   classDef element fill:#fff,stroke:#a0a0a0,stroke-width:2px,stroke-dasharray:2 4
   class m1,m2,m3,m4 confmenu
