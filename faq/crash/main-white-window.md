@@ -47,7 +47,7 @@ graph LR
 ```
 ``` tip
 Если `Конфигурация` открыта, показать окно можно горячими клавишами 
-<kbd>Ctrl+Shift+C</kbd>
+<b>Ctrl+Shift+C</b> [`Ctrl+Shift+C`](#)
 ```
 
 2. Проверить настройки Начальной страницы `Конфигурации` в поле `Шаблон 
@@ -72,4 +72,14 @@ graph LR
   class e0,e1,e2,e3,e4 element
 ```
 
-3. 
+3. Открыть `Расширение ДОАМ` и установить `Шаблон начальной страницы` как в 
+`Конфигурации`
+``` mermaid
+graph LR
+  m1(fa:fa-caret-down Конфигурация) --> m2
+  m2(Расширения конфигурации) -.-> |ЛКМ| e0
+  e0[fa:fa-window-restore]
+  style e0 fill:#fff,stroke:#a0a0a0,stroke-width:2px,stroke-dasharray:2 4
+  classDef confmenu fill:#d6e9ff,stroke:#9eb6e9,stroke-width:1px,color:#3d4e8f
+  class m1,m2 confmenu
+```
