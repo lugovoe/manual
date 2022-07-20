@@ -3,8 +3,8 @@
 ####################
 
 # Jekyll: remote theme
-_includes/
 _layouts/
+_includes/
 _sass/
 assets/
 
